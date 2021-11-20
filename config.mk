@@ -19,6 +19,11 @@ $(call inherit-product, vendor/google/pixel/pixel-vendor.mk)
 PRODUCT_COPY_FILES += \
     vendor/google/pixel/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
+# Gboard
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms \
+    ro.com.google.ime.theme_id=5
+
 # Overlays
 PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
