@@ -55,6 +55,14 @@ PRODUCT_PACKAGES += \
     DevicePersonalizationPrebuiltPixel2020 \
     TurboAdapter
 
+# Include TurboAdapter without Google Battery support
+ifeq ($(TARGET_DOES_NOT_SUPPORT_GOOGLE_BATTERY),true)
+PRODUCT_PACKAGES += \
+    TurboAdapter_NoBatt \
+    LibPowerStatsSymLink_NoBatt \
+    libpowerstatshaldataprovider
+endif
+
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.setupwizard.enterprise_mode=1 \
