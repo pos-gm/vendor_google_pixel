@@ -14,7 +14,6 @@
 
 # Automated
 $(call inherit-product, vendor/google/pixel/pixel-vendor.mk)
-$(call inherit-product, vendor/aospa/prebuilt/pixel.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
@@ -29,6 +28,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google/pixel/overlay/static
 PRODUCT_PACKAGE_OVERLAYS += vendor/google/pixel/overlay/static
+
+# Prebuilts
+PRODUCT_PACKAGES += \
+    com.google.android.apps.dialer.call_recording_audio.features \
+    DeviceIntelligenceNetworkPrebuilt \
+    DevicePersonalizationPrebuiltPixel2020 \
+    TurboAdapter
 
 # Set default ringtone, notification and alarm
 PRODUCT_PRODUCT_PROPERTIES += \
