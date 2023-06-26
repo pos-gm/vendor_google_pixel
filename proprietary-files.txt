@@ -113,6 +113,15 @@ system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;PRESIGNED
 # Sound
 product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 
+# Styles & Wallpapers
+-product/app/PixelThemesStub/PixelThemesStub.apk;PRESIGNED
+-product/app/PixelThemesStub2022_and_newer/PixelThemesStub2022_and_newer.apk
+-product/app/PixelWallpapers2023/PixelWallpapers2023.apk;PRESIGNED
+-product/app/WallpaperEmojiPrebuilt/WallpaperEmojiPrebuilt.apk;PRESIGNED
+-product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk;PRESIGNED
+-product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
+-system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=ThemePicker,WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
+
 # Sysconfig
 product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
 product/etc/sysconfig/game_service.xml
