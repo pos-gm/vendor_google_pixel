@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MarkupGoogle \
     SoundPickerPrebuilt \
+    MaestroPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     WeatherPixelPrebuilt \
     Flipendo \
