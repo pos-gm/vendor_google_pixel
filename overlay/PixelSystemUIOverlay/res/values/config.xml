@@ -32,23 +32,6 @@
     <!-- Remote Copy default activity -->
     <string name="config_remoteCopyPackage">com.google.android.gms/.nearby.sharing.RemoteCopyShareSheetActivity</string>
 
-    <!-- SystemUI Plugins that can be loaded on user builds. -->
-    <string-array name="config_pluginAllowlist" translatable="false">
-        <item>com.android.systemui</item>
-        <item>com.android.systemui.plugin.globalactions.wallet</item>
-        <item>com.android.systemui.falcon</item>
-        <item>com.android.systemui.falcon.debug</item>
-        <item>com.android.systemui.falcon.one</item>
-        <item>com.android.systemui.falcon.two</item>
-        <item>com.android.systemui.falcon.three</item>
-        <item>com.android.systemui.falcon.four</item>
-        <item>com.android.systemui.falcon.five</item>
-        <item>com.android.systemui.falcon.six</item>
-        <item>com.android.systemui.falcon.seven</item>
-        <item>com.android.systemui.falcon.eight</item>
-        <item>com.android.systemui.falcon.nine</item>
-    </string-array>
-
     <!-- ComponentName for the file browsing app that the system would expect to be used in work
          profile. The icon for this app will be shown to the user when informing them that a
          screenshot has been saved to work profile. If blank, a default icon will be shown. -->
