@@ -15,6 +15,10 @@
 # Automated
 $(call inherit-product, vendor/google/pixel/pixel-vendor.mk)
 
+# Fonts
+PRODUCT_COPY_FILES += \
+    vendor/google/pixel/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
 # Overlays
 PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
