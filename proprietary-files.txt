@@ -1,21 +1,37 @@
-product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
-product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
-product/etc/permissions/privapp-permissions-google-p.xml
-product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
-product/etc/sysconfig/game_service.xml
-product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
-product/etc/sysconfig/google_build.xml
-product/etc/sysconfig/nexus.xml
-product/etc/sysconfig/pixel_2017-initial-package-stopped-states.xml
-product/etc/sysconfig/pixel_experience_2020_midyear.xml
-product/etc/sysconfig/pixel_experience_2020.xml
-product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
-product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml
-product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
+# All unpinned blobs below are extracted from husky-ud1a.230803.041
+
+# Flipendo
+system_ext/app/Flipendo/Flipendo.apk
+
+# Fonts
 product/fonts/GoogleSansClock-Regular.ttf
 product/fonts/GoogleSansFlex-Regular.ttf
 product/fonts/GoogleSans-Italic.ttf
 product/fonts/GoogleSans-Regular.ttf
+
+# Intelligence
+product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
+
+# Lock screen clocks
+system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk
+system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk
+system_ext/priv-app/SystemUIClocks-Flex/SystemUIClocks-Flex.apk
+system_ext/priv-app/SystemUIClocks-Growth/SystemUIClocks-Growth.apk
+system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk
+system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
+system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
+
+# Permissions
+product/etc/permissions/privapp-permissions-google-p.xml
+system_ext/etc/permissions/privapp-permissions-google-se.xml
+
+# Photo
+product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
+
+# Pixel buds
+product/priv-app/MaestroPrebuilt/MaestroPrebuilt.apk;PRESIGNED
+
+# Pixel sounds
 product/media/audio/alarms/A_real_hoot.ogg
 product/media/audio/alarms/Bright_morning.ogg
 product/media/audio/alarms/Cuckoo_clock.ogg
@@ -87,16 +103,25 @@ product/media/audio/ui/Unlock.ogg
 product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
-product/priv-app/MaestroPrebuilt/MaestroPrebuilt.apk;PRESIGNED
-product/priv-app/WeatherPixelPrebuilt/WeatherPixelPrebuilt.apk;PRESIGNED
-product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
-system_ext/app/Flipendo/Flipendo.apk
-system_ext/etc/permissions/privapp-permissions-google-se.xml
+
+# Setup
 system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;PRESIGNED
-system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk
-system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk
-system_ext/priv-app/SystemUIClocks-Flex/SystemUIClocks-Flex.apk
-system_ext/priv-app/SystemUIClocks-Growth/SystemUIClocks-Growth.apk
-system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk
-system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
-system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
+
+# Sound
+product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
+
+# Sysconfig
+product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
+product/etc/sysconfig/game_service.xml
+product/etc/sysconfig/google.xml:product/etc/sysconfig/pixel.xml
+product/etc/sysconfig/google_build.xml
+product/etc/sysconfig/nexus.xml
+product/etc/sysconfig/pixel_2017-initial-package-stopped-states.xml
+product/etc/sysconfig/pixel_experience_2020_midyear.xml
+product/etc/sysconfig/pixel_experience_2020.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
+
+# Weather
+product/priv-app/WeatherPixelPrebuilt/WeatherPixelPrebuilt.apk;PRESIGNED
