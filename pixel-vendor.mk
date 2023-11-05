@@ -103,6 +103,7 @@ PRODUCT_PACKAGES += \
     PixelWallpapers2023 \
     SoundPickerPrebuilt \
     WallpaperEmojiPrebuilt \
+    AiWallpapers \
     MaestroPrebuilt \
     PixelLiveWallpaperPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
